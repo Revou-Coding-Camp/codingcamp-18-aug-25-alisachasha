@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fadb5d;
+;
     color: #333;
 }
 
@@ -15,7 +16,8 @@ body {
 
 h1 {
     text-align: center;
-    color: #ff7f50; /* Coral */
+    font-family: chewy, cursive;
+    color: #f77525; 
 }
 
 form {
@@ -42,7 +44,7 @@ button {
 }
 
 button:hover {
-    background-color: #fadb5d; /* Darker Yellow */
+    background-color: #fadb5d;
 }
 
 table {

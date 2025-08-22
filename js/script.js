@@ -13,11 +13,11 @@ document.getElementById('todoForm').addEventListener('submit', function(event) {
     newRow.innerHTML = `
         <td>${todoInput}</td>
         <td>${dueDateInput}</td>
-        <td>Pending</td>
+        <td><input type="checkbox" class="statusCheckbox"></td>
         <td><button class="deleteBtn">Delete</button></td>
     `;
     todoList.appendChild(newRow);
-
+    
     document.getElementById('todoInput').value = '';
     document.getElementById('dueDateInput').value = '';
 });
